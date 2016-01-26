@@ -1,8 +1,8 @@
-# `esprev`: Babel 6to5
+# esprev: Babel 6to5
 
 [![NPM version][npm-img]][npm-url] [![Downloads][downloads-img]][npm-url]
 
-It's [Babel 6.x](http://babeljs.io/docs/plugins/) preconfigured to use the [es2015](http://babeljs.io/docs/plugins/preset-es2015/) and [stage-2](http://babeljs.io/docs/plugins/preset-stage-2/) presets to work much like Babel 5.x did.
+It's [Babel 6.x](http://babeljs.io/docs/plugins/) preconfigured with the [es2015](http://babeljs.io/docs/plugins/preset-es2015/) and [stage-2](http://babeljs.io/docs/plugins/preset-stage-2/) presets to work much like Babel 5.x did.
 
 ## Install
 

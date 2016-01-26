@@ -17,6 +17,9 @@
     "esnext",
     "jsnext",
     "stage",
+    "stage0",
+    "stage1",
+    "stage2",
     "stage3"
   ],
   "author": "Shannon Moeller <me@shannonmoeller.com> (http://shannonmoeller.com)",
