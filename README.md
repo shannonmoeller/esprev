@@ -27,6 +27,10 @@ var babel = require('esprev');
 babel.transform(code, options);
 ```
 
+## Config
+
+Babel handles all of the configuration handling, so you can use a `.babelrc` file or `babel` field in your `package.json` [per usual](http://babeljs.io/docs/usage/babelrc/).
+
 ----
 
 © 2016 Shannon Moeller <me@shannonmoeller.com>
