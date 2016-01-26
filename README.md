@@ -29,7 +29,7 @@ babel.transform(code, options);
 
 ## Config
 
-Babel handles all of the configuration handling, so you can use a `.babelrc` file or `babel` field in your `package.json` [per usual](http://babeljs.io/docs/usage/babelrc/).
+Babel handles all of the configuration, so you can use a `.babelrc` file or `babel` field in your `package.json` [per usual](http://babeljs.io/docs/usage/babelrc/).
 
 ----
 
