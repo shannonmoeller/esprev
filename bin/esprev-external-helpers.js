@@ -1,4 +1,4 @@
 #!/usr/bin/env node
 
-require('../index');
+require('../argv');
 require('babel-cli/bin/babel-external-helpers');
