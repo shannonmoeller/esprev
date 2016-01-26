@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "Babel 6 to 5",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bin": {
+    "eprev": "./bin/eprev.js",
+    "eprev-node": "./bin/eprev-node.js",
+    "eprev-doctor": "./bin/eprev-doctor.js",
+    "eprev-external-helpers": "./bin/eprev-external-helpers.js"
   },
   "repository": {
     "type": "git",
