@@ -2,7 +2,6 @@
 
 var babelCore = require('babel-core');
 var assign = require('object-assign');
-var path = require('path');
 
 var File = babelCore.File;
 var initOptions = File.prototype.initOptions;
