@@ -4,10 +4,10 @@
   "description": "Babel 6 to 5",
   "main": "index.js",
   "bin": {
-    "eprev": "./bin/eprev.js",
-    "eprev-node": "./bin/eprev-node.js",
-    "eprev-doctor": "./bin/eprev-doctor.js",
-    "eprev-external-helpers": "./bin/eprev-external-helpers.js"
+    "esprev": "./bin/esprev.js",
+    "esprev-node": "./bin/esprev-node.js",
+    "esprev-doctor": "./bin/esprev-doctor.js",
+    "esprev-external-helpers": "./bin/esprev-external-helpers.js"
   },
   "repository": {
     "type": "git",
