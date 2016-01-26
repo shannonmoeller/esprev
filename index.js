@@ -7,13 +7,13 @@ var path = require('path');
 var File = babelCore.File;
 var initOptions = File.prototype.initOptions;
 var presets = [
-    path.join(__dirname, 'node_modules/babel-preset-es2015'),
-    path.join(__dirname, 'node_modules/babel-preset-stage-2')
+    require('babel-preset-es2015'),
+    require('babel-preset-stage-2')
 ];
 
 // We inject presets into the default options when a file is being transformed.
 // If the user sets their own presets value, this whole module becomes pretty
-// much pointless, but will still do its thing.
+// much pointless, but will still work.
 File.prototype.initOptions = function (opts) {
     opts = assign({presets: presets.slice()}, opts);
 
