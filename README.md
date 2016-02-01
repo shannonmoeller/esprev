@@ -4,6 +4,8 @@
 
 It's [Babel 6.x](http://babeljs.io/docs/plugins/) preconfigured with the [es2015](http://babeljs.io/docs/plugins/preset-es2015/) and [stage-2](http://babeljs.io/docs/plugins/preset-stage-2/) presets to work much like Babel 5.x did.
 
+    $ es next.js
+
 ## Install
 
     $ npm install --save-dev esprev
@@ -12,10 +14,14 @@ It's [Babel 6.x](http://babeljs.io/docs/plugins/) preconfigured with the [es2015
 
 Type `esprev` instead of `babel` when using the [CLI](http://babeljs.io/docs/usage/cli/):
 
-    $ esprev script.js
-    $ esprev-node script.js
+    $ esprev next.js > prev.js
+    $ esprev-node next.js
     $ esprev-doctor
     $ esprev-external-helpers
+
+For convenience, `esprev-node` has also been aliased to just `es` to make it incredibly easy to execute the future:
+
+    $ es make.js
 
 ## API
 

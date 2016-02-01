@@ -1,9 +1,10 @@
 {
   "name": "esprev",
   "version": "1.0.4",
-  "description": "Babel 6 to 5",
+  "description": "Babel, pre-configured with future standards.",
   "main": "index.js",
   "bin": {
+    "es": "./bin/esprev-node.js",
     "esprev": "./bin/esprev.js",
     "esprev-node": "./bin/esprev-node.js",
     "esprev-doctor": "./bin/esprev-doctor.js",
