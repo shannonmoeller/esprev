@@ -8,7 +8,7 @@ It's [Babel 6.x](http://babeljs.io/docs/plugins/) preconfigured with the [es2015
 
 ## Install
 
-    $ npm install --save-dev esprev
+    $ npm install --global esprev
 
 ## Usage
 
