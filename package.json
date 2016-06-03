@@ -2,18 +2,6 @@
   "name": "esprev",
   "version": "3.0.0",
   "description": "Babel, pre-configured with future standards.",
-  "main": "index.js",
-  "bin": {
-    "es": "./bin/esprev-node.js",
-    "esprev": "./bin/esprev.js",
-    "esprev-node": "./bin/esprev-node.js",
-    "esprev-doctor": "./bin/esprev-doctor.js",
-    "esprev-external-helpers": "./bin/esprev-external-helpers.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/shannonmoeller/esprev"
-  },
   "keywords": [
     "6to5",
     "babel",
@@ -26,19 +14,38 @@
     "stage2",
     "stage3"
   ],
-  "author": "Shannon Moeller <me@shannonmoeller.com> (http://shannonmoeller.com)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/shannonmoeller/esprev/issues"
+  "repository": "shannonmoeller/esprev",
+  "homepage": "https://github.com/shannonmoeller/esprev#readme",
+  "author": {
+    "name": "Shannon Moeller",
+    "email": "me@shannonmoeller.com",
+    "url": "http://shannonmoeller.com"
   },
-  "homepage": "https://github.com/shannonmoeller/esprev",
+  "main": "index.js",
+  "files": [
+    "*.js",
+    "bin"
+  ],
+  "bin": {
+    "es": "./bin/esprev-node.js",
+    "esprev": "./bin/esprev.js",
+    "esprev-node": "./bin/esprev-node.js",
+    "esprev-doctor": "./bin/esprev-doctor.js",
+    "esprev-external-helpers": "./bin/esprev-external-helpers.js"
+  },
   "dependencies": {
     "babel-cli": "6.x",
     "babel-core": "6.x",
     "babel-plugin-add-module-exports": "^0.2.1",
     "babel-plugin-transform-runtime": "^6.x",
+    "babel-polyfill": "^6.9.1",
     "babel-preset-es2015": "6.x",
     "babel-preset-stage-2": "6.x",
+    "babel-register": "^6.9.0",
     "babel-runtime": "6.x"
+  },
+  "engines": {
+    "node": ">= 0.12"
   }
 }
