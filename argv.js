@@ -7,6 +7,7 @@ var presets = [
 
 var plugins = [
     require.resolve('babel-plugin-add-module-exports'),
+    require.resolve('babel-plugin-transform-runtime'),
 ];
 
 // We inject presets into the default options when a file is being transformed.
