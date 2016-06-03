@@ -2,9 +2,10 @@
 
 [![NPM version][npm-img]][npm-url] [![Downloads][downloads-img]][npm-url]
 
-It's [Babel 6.x](http://babeljs.io/docs/plugins/) preconfigured with the [es2015](http://babeljs.io/docs/plugins/preset-es2015/) and [stage-2](http://babeljs.io/docs/plugins/preset-stage-2/) presets to work much like Babel 5.x did.
+It's [Babel 6.x](http://babeljs.io/docs/plugins/) preconfigured with the [es2015](http://babeljs.io/docs/plugins/preset-es2015/) and [stage-2](http://babeljs.io/docs/plugins/preset-stage-2/) presets, and the [babel-plugin-add-module-exports](https://github.com/59naga/babel-plugin-add-module-exports) plugin to work much like Babel 5.x did.
 
     $ es next.js
+    $ esprev next.js > prev.js
 
 ## Install
 
