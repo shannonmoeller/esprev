@@ -40,9 +40,7 @@ Babel handles all of the configuration, so you can use a `.babelrc` file or `bab
 
 ----
 
-© 2016 Shannon Moeller <me@shannonmoeller.com>
-
-Licensed under [MIT](http://shannonmoeller.com/mit.txt)
+MIT © [Shannon Moeller](http://shannonmoeller.com)
 
 [downloads-img]: http://img.shields.io/npm/dm/esprev.svg?style=flat-square
 [npm-img]:       http://img.shields.io/npm/v/esprev.svg?style=flat-square
